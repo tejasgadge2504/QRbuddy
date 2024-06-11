@@ -1,0 +1,35 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.url{
+  height: 40px;
+  width: 400px;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 32px;
+}
+
+.align1{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  gap: 15px;
+}
+
+.align2{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.selected{
+  background-color: rgb(122, 123, 124);
+}
+
+button{
+  width: fit-content;
+  padding: 10px;
+  border-radius: 8px;
+}
